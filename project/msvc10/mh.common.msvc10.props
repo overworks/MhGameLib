@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros">
+    <MHLIB_DIR>$(SolutionDir)..\..\</MHLIB_DIR>
+    <MHLIB_PLUGIN_DIR>$(MHLIB_DIR)plugin\</MHLIB_PLUGIN_DIR>
+    <MHLIB_SAMPLE_DIR>$(MHLIB_DIR)sample\</MHLIB_SAMPLE_DIR>
+  </PropertyGroup>
+  <PropertyGroup>
+    <IncludePath>$(MHLIB_DIR)include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(MHLIB_DIR)lib;$(LibraryPath)</LibraryPath>
+    <OutDir>$(MHLIB_DIR)bin\</OutDir>
+    <IntDir>$(MHLIB_DIR)obj\$(ProjectName)\$(Configuration)\</IntDir>
+	<EmbedManifest>false</EmbedManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <DisableSpecificWarnings>4819;</DisableSpecificWarnings>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <BuildMacro Include="MHLIB_DIR">
+      <Value>$(MHLIB_DIR)</Value>
+      <EnvironmentVariable>true</EnvironmentVariable>
+    </BuildMacro>
+    <BuildMacro Include="MHLIB_PLUGIN_DIR">
+      <Value>$(MHLIB_PLUGIN_DIR)</Value>
+      <EnvironmentVariable>true</EnvironmentVariable>
+    </BuildMacro>
+    <BuildMacro Include="MHLIB_SAMPLE_DIR">
+      <Value>$(MHLIB_SAMPLE_DIR)</Value>
+      <EnvironmentVariable>true</EnvironmentVariable>
+    </BuildMacro>
+  </ItemGroup>
+</Project>

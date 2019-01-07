@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Static-Debug|Win32">
+      <Configuration>Static-Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Static-Release|Win32">
+      <Configuration>Static-Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\mh\algorithm.hpp" />
+    <ClInclude Include="..\..\include\mh\allocator.hpp" />
+    <ClInclude Include="..\..\include\mh\app.hpp" />
+    <ClInclude Include="..\..\include\mh\array.hpp" />
+    <ClInclude Include="..\..\include\mh\atomic.hpp" />
+    <ClInclude Include="..\..\include\mh\audio.hpp" />
+    <ClInclude Include="..\..\include\mh\chrono.hpp" />
+    <ClInclude Include="..\..\include\mh\functional.hpp" />
+    <ClInclude Include="..\..\include\mh\handle.hpp" />
+    <ClInclude Include="..\..\include\mh\hid.hpp" />
+    <ClInclude Include="..\..\include\mh\hid\device.hpp" />
+    <ClInclude Include="..\..\include\mh\hid\gamepad.hpp" />
+    <ClInclude Include="..\..\include\mh\hid\keyboard.hpp" />
+    <ClInclude Include="..\..\include\mh\hid\manager.hpp" />
+    <ClInclude Include="..\..\include\mh\hid\mouse.hpp" />
+    <ClInclude Include="..\..\include\mh\hid\xinput.hpp" />
+    <ClInclude Include="..\..\include\mh\list.hpp" />
+    <ClInclude Include="..\..\include\mh\math.hpp" />
+    <ClInclude Include="..\..\include\mh\math\function.hpp" />
+    <ClInclude Include="..\..\include\mh\math\types.hpp" />
+    <ClInclude Include="..\..\include\mh\memory.hpp" />
+    <ClInclude Include="..\..\include\mh\mh.hpp" />
+    <ClInclude Include="..\..\include\mh\network.hpp" />
+    <ClInclude Include="..\..\include\mh\network\client.hpp" />
+    <ClInclude Include="..\..\include\mh\network\server.hpp" />
+    <ClInclude Include="..\..\include\mh\network\server_win32.hpp" />
+    <ClInclude Include="..\..\include\mh\network\socket.hpp" />
+    <ClInclude Include="..\..\include\mh\network\socket_win32.hpp" />
+    <ClInclude Include="..\..\include\mh\network\types.hpp" />
+    <ClInclude Include="..\..\include\mh\pattern.hpp" />
+    <ClInclude Include="..\..\include\mh\pattern\observer.hpp" />
+    <ClInclude Include="..\..\include\mh\pattern\singleton.hpp" />
+    <ClInclude Include="..\..\include\mh\plugin.hpp" />
+    <ClInclude Include="..\..\include\mh\predef\architecture.h" />
+    <ClInclude Include="..\..\include\mh\predef\compiler.h" />
+    <ClInclude Include="..\..\include\mh\predef\config.h" />
+    <ClInclude Include="..\..\include\mh\predef\language.h" />
+    <ClInclude Include="..\..\include\mh\predef\platform.h" />
+    <ClInclude Include="..\..\include\mh\prerequisite.h" />
+    <ClInclude Include="..\..\include\mh\ratio.hpp" />
+    <ClInclude Include="..\..\include\mh\renderer.hpp" />
+    <ClInclude Include="..\..\include\mh\renderer\base.hpp" />
+    <ClInclude Include="..\..\include\mh\renderer\d2d1.hpp" />
+    <ClInclude Include="..\..\include\mh\renderer\d3d10.hpp" />
+    <ClInclude Include="..\..\include\mh\renderer\d3d10_1.hpp" />
+    <ClInclude Include="..\..\include\mh\renderer\d3d11.hpp" />
+    <ClInclude Include="..\..\include\mh\renderer\dxgi.hpp" />
+    <ClInclude Include="..\..\include\mh\resource.hpp" />
+    <ClInclude Include="..\..\include\mh\resource\base.hpp" />
+    <ClInclude Include="..\..\include\mh\resource\buffer.hpp" />
+    <ClInclude Include="..\..\include\mh\resource\buffer_d3d9.hpp" />
+    <ClInclude Include="..\..\include\mh\resource\gpu_program.hpp" />
+    <ClInclude Include="..\..\include\mh\resource\sound.hpp" />
+    <ClInclude Include="..\..\include\mh\resource\texture.hpp" />
+    <ClInclude Include="..\..\include\mh\scene.hpp" />
+    <ClInclude Include="..\..\include\mh\scene\camera.hpp" />
+    <ClInclude Include="..\..\include\mh\scene\light.hpp" />
+    <ClInclude Include="..\..\include\mh\scene\manager.hpp" />
+    <ClInclude Include="..\..\include\mh\scene\node.hpp" />
+    <ClInclude Include="..\..\include\mh\scene\spatial.hpp" />
+    <ClInclude Include="..\..\include\mh\set.hpp" />
+    <ClInclude Include="..\..\include\mh\stl\algorithm.hpp" />
+    <ClInclude Include="..\..\include\mh\stl\allocator.hpp" />
+    <ClInclude Include="..\..\include\mh\stl\array.hpp" />
+    <ClInclude Include="..\..\include\mh\stl\atomic.hpp" />
+    <ClInclude Include="..\..\include\mh\stl\functional.hpp" />
+    <ClInclude Include="..\..\include\mh\stl\iterator.hpp" />
+    <ClInclude Include="..\..\include\mh\stl\list.hpp" />
+    <ClInclude Include="..\..\include\mh\stl\memory.hpp" />
+    <ClInclude Include="..\..\include\mh\stl\set.hpp" />
+    <ClInclude Include="..\..\include\mh\stl\string.hpp" />
+    <ClInclude Include="..\..\include\mh\stl\tuple.hpp" />
+    <ClInclude Include="..\..\include\mh\stl\type_traits.hpp" />
+    <ClInclude Include="..\..\include\mh\stl\vector.hpp" />
+    <ClInclude Include="..\..\include\mh\string.hpp" />
+    <ClInclude Include="..\..\include\mh\text\encoding.hpp" />
+    <ClInclude Include="..\..\include\mh\timer.hpp" />
+    <ClInclude Include="..\..\include\mh\tuple.hpp" />
+    <ClInclude Include="..\..\include\mh\types.hpp" />
+    <ClInclude Include="..\..\include\mh\type\light.hpp" />
+    <ClInclude Include="..\..\include\mh\type\material.hpp" />
+    <ClInclude Include="..\..\include\mh\type_traits.hpp" />
+    <ClInclude Include="..\..\include\mh\util.hpp" />
+    <ClInclude Include="..\..\include\mh\utility.hpp" />
+    <ClInclude Include="..\..\include\mh\vector.hpp" />
+    <ClInclude Include="..\..\include\mh\view.hpp" />
+    <ClInclude Include="..\..\include\mh\win32\timer.hpp" />
+    <ClInclude Include="..\..\include\mh\win32\winapp.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\include\mh\atomic_win32.inl" />
+    <None Include="..\..\include\mh\math.inl" />
+    <None Include="..\..\include\mh\math\color.inl" />
+    <None Include="..\..\include\mh\math\function.inl" />
+    <None Include="..\..\include\mh\math\line.inl" />
+    <None Include="..\..\include\mh\math\matrix.inl" />
+    <None Include="..\..\include\mh\math\plane.inl" />
+    <None Include="..\..\include\mh\math\point.inl" />
+    <None Include="..\..\include\mh\math\quaternion.inl" />
+    <None Include="..\..\include\mh\math\rect.inl" />
+    <None Include="..\..\include\mh\math\sphere.inl" />
+    <None Include="..\..\include\mh\math\vector.inl" />
+    <None Include="..\..\include\mh\renderer\dxgi.inl" />
+    <None Include="..\..\include\mh\scene\manager.inl" />
+    <None Include="..\..\include\mh\stl\allocator.inl" />
+    <None Include="..\..\include\mh\stl\array.inl" />
+    <None Include="..\..\include\mh\stl\iterator.inl" />
+    <None Include="..\..\include\mh\stl\list.inl" />
+    <None Include="..\..\include\mh\stl\memory.inl" />
+    <None Include="..\..\include\mh\stl\string.inl" />
+    <None Include="..\..\include\mh\stl\vector.inl" />
+    <None Include="..\..\include\mh\win32\atomic_win32.inl" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\app.cpp" />
+    <ClCompile Include="..\..\src\audio_base.cpp" />
+    <ClCompile Include="..\..\src\hid\hid_device.cpp" />
+    <ClCompile Include="..\..\src\hid\hid_gamepad.cpp" />
+    <ClCompile Include="..\..\src\hid\hid_manager.cpp" />
+    <ClCompile Include="..\..\src\hid\hid_mouse.cpp" />
+    <ClCompile Include="..\..\src\hid\hid_xinput.cpp" />
+    <ClCompile Include="..\..\src\math.cpp" />
+    <ClCompile Include="..\..\src\pattern\pattern_observer.cpp" />
+    <ClCompile Include="..\..\src\plugin.cpp" />
+    <ClCompile Include="..\..\src\renderer\renderer.cpp" />
+    <ClCompile Include="..\..\src\resource_base.cpp" />
+    <ClCompile Include="..\..\src\resource_texture.cpp" />
+    <ClCompile Include="..\..\src\scene\scene_manager.cpp" />
+    <ClCompile Include="..\..\src\scene\scene_node.cpp" />
+    <ClCompile Include="..\..\src\scene\scene_spatial.cpp" />
+    <ClCompile Include="..\..\src\win32\dll_main.cpp" />
+    <ClCompile Include="..\..\src\win32\encoding_win32.cpp" />
+    <ClCompile Include="..\..\src\win32\network_server_win32.cpp" />
+    <ClCompile Include="..\..\src\win32\network_socket_win32.cpp" />
+    <ClCompile Include="..\..\src\win32\timer_win32.cpp" />
+    <ClCompile Include="..\..\src\win32\winapp.cpp" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{D5330573-8029-47BD-9C11-5FDB6AC0301B}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>mhcoremsvc11</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Static-Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Static-Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="mh.common.msvc11.props" />
+    <Import Project="mh.static.msvc11.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="mh.common.msvc11.props" />
+    <Import Project="mh.static.msvc11.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Static-Debug|Win32'">
+    <TargetName>mh-core-msvc11-sd</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">
+    <TargetName>mh-core-msvc11-s</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Static-Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Static-Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MinSpace</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>false</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

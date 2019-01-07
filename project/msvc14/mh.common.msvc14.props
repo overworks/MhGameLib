@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros">
+    <MHLIB_ROOT_DIR>$(SolutionDir)..\..\</MHLIB_ROOT_DIR>
+    <MHLIB_OBJ_DIR>$(MHLIB_ROOT_DIR)obj\</MHLIB_OBJ_DIR>
+    <MHLIB_BIN_DIR>$(MHLIB_ROOT_DIR)bin\</MHLIB_BIN_DIR>
+    <MHLIB_LIB_DIR>$(MHLIB_ROOT_DIR)lib\</MHLIB_LIB_DIR>
+    <MHLIB_PLUGIN_DIR>$(MHLIB_ROOT_DIR)plugin\</MHLIB_PLUGIN_DIR>
+    <MHLIB_SAMPLE_DIR>$(MHLIB_ROOT_DIR)sample\</MHLIB_SAMPLE_DIR>
+  </PropertyGroup>
+  <PropertyGroup>
+    <IntDir>$(MHLIB_OBJ_DIR)$(Platform)\$(ProjectName)\$(Configuration)\</IntDir>
+    <IncludePath>$(MHLIB_ROOT_DIR)include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(MHLIB_LIB_DIR);$(LibraryPath)</LibraryPath>
+    <EmbedManifest>false</EmbedManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <DisableSpecificWarnings>4819;</DisableSpecificWarnings>
+    </ClCompile>
+    <PostBuildEvent />
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <BuildMacro Include="MHLIB_ROOT_DIR">
+      <Value>$(MHLIB_ROOT_DIR)</Value>
+      <EnvironmentVariable>true</EnvironmentVariable>
+    </BuildMacro>
+    <BuildMacro Include="MHLIB_OBJ_DIR">
+      <Value>$(MHLIB_OBJ_DIR)</Value>
+      <EnvironmentVariable>true</EnvironmentVariable>
+    </BuildMacro>
+    <BuildMacro Include="MHLIB_BIN_DIR">
+      <Value>$(MHLIB_BIN_DIR)</Value>
+    </BuildMacro>
+    <BuildMacro Include="MHLIB_LIB_DIR">
+      <Value>$(MHLIB_LIB_DIR)</Value>
+    </BuildMacro>
+    <BuildMacro Include="MHLIB_PLUGIN_DIR">
+      <Value>$(MHLIB_PLUGIN_DIR)</Value>
+    </BuildMacro>
+    <BuildMacro Include="MHLIB_SAMPLE_DIR">
+      <Value>$(MHLIB_SAMPLE_DIR)</Value>
+    </BuildMacro>
+  </ItemGroup>
+</Project>

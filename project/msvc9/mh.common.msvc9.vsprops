@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="ks_c_5601-1987"?>
+<VisualStudioPropertySheet
+	ProjectType="Visual C++"
+	Version="8.00"
+	Name="mh.common.msvc9"
+	IntermediateDirectory="$(MHLIB_OBJ_DIR)$(PlatformName)\$(ProjectName)\$(ConfigurationName)\"
+	>
+	<Tool
+		Name="VCCLCompilerTool"
+		AdditionalIncludeDirectories="$(MHLIB_ROOT_DIR)include"
+		WarningLevel="4"
+		DisableSpecificWarnings="4819;"
+	/>
+	<Tool
+		Name="VCLibrarianTool"
+		AdditionalLibraryDirectories="$(MHLIB_LIB_DIR)"
+	/>
+	<Tool
+		Name="VCLinkerTool"
+		AdditionalLibraryDirectories="$(MHLIB_LIB_DIR)"
+	/>
+	<UserMacro
+		Name="MHLIB_DIR"
+		Value="$(SolutionDir)..\..\"
+		PerformEnvironmentSet="true"
+	/>
+	<UserMacro
+		Name="MHLIB_ROOT_DIR"
+		Value="$(SolutionDir)..\..\"
+		PerformEnvironmentSet="true"
+	/>
+	<UserMacro
+		Name="MHLIB_BIN_DIR"
+		Value="$(MHLIB_ROOT_DIR)bin\"
+		PerformEnvironmentSet="true"
+	/>
+	<UserMacro
+		Name="MHLIB_OBJ_DIR"
+		Value="$(MHLIB_ROOT_DIR)obj\"
+		PerformEnvironmentSet="true"
+	/>
+	<UserMacro
+		Name="MHLIB_PLUGIN_DIR"
+		Value="$(MHLIB_ROOT_DIR)plugin\"
+		PerformEnvironmentSet="true"
+	/>
+	<UserMacro
+		Name="MHLIB_SAMPLE_DIR"
+		Value="$(MHLIB_ROOT_DIR)sample\"
+		PerformEnvironmentSet="true"
+	/>
+	<UserMacro
+		Name="MHLIB_LIB_DIR"
+		Value="$(MHLIB_ROOT_DIR)lib\"
+		PerformEnvironmentSet="true"
+	/>
+</VisualStudioPropertySheet>

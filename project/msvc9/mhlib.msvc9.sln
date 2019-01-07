@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mh.core.msvc9", "mh.core.msvc9.vcproj", "{F3B716D8-A862-494D-8A9C-1A073D9BF274}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Static-Debug|Win32 = Static-Debug|Win32
+		Static-Release|Win32 = Static-Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F3B716D8-A862-494D-8A9C-1A073D9BF274}.Static-Debug|Win32.ActiveCfg = Static-Debug|Win32
+		{F3B716D8-A862-494D-8A9C-1A073D9BF274}.Static-Debug|Win32.Build.0 = Static-Debug|Win32
+		{F3B716D8-A862-494D-8A9C-1A073D9BF274}.Static-Release|Win32.ActiveCfg = Static-Release|Win32
+		{F3B716D8-A862-494D-8A9C-1A073D9BF274}.Static-Release|Win32.Build.0 = Static-Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

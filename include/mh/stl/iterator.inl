@@ -1,0 +1,4 @@
+#ifndef _MH_STL_ITERATOR_INL_
+#define	_MH_STL_ITERATOR_INL_
+
+#endif	// _MH_STL_ITERATOR_INL_

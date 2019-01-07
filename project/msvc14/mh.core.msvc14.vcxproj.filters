@@ -1,0 +1,410 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일\stl">
+      <UniqueIdentifier>{9fe4b36f-c326-40ac-b233-d464df0ad812}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\resource">
+      <UniqueIdentifier>{da15cb08-fe9a-4a26-b2cc-6d611535ce12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\renderer">
+      <UniqueIdentifier>{d8b58e8f-be60-4acc-bd12-d933e8e5a49f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\predef">
+      <UniqueIdentifier>{e5be82b0-8317-42e4-9098-87f74dc7845f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\scene">
+      <UniqueIdentifier>{2a9e52a7-341e-463f-8292-91144ca53be8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\math">
+      <UniqueIdentifier>{e5318135-d8a2-41d9-857f-ba30c4978d48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\hid">
+      <UniqueIdentifier>{97b284bd-b94b-4b84-84a6-fb978f0173fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\win32">
+      <UniqueIdentifier>{d2ba8dfd-d7e1-4408-abea-5fd369d12d3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\hid">
+      <UniqueIdentifier>{e5d73a08-1e83-4ca7-af2b-fb70310d4b2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\renderer">
+      <UniqueIdentifier>{1552f51f-6478-4994-acee-a0fe1029d2f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\scene">
+      <UniqueIdentifier>{f5b69b72-fea6-4330-b9c3-cf060268e06e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\mh\algorithm.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\mh\allocator.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\mh\app.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\mh\array.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\mh\atomic.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\mh\audio.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\mh\chrono.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\mh\functional.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\mh\handle.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\mh\hid\gamepad.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\mh\hid\keyboard.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\mh\hid\manager.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\mh\hid\mouse.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\mh\hid.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\mh\list.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\mh\math.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\mh\memory.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\mh\mh.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\mh\network\client.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\mh\network\server.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\mh\network\server_win32.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\mh\network\socket.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\mh\network\socket_win32.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\mh\network\types.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\mh\network.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\mh\pattern\observer.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\mh\pattern\singleton.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\mh\pattern.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\mh\plugin.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\mh\predef\compiler.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\mh\predef\config.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\mh\predef\platform.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\mh\prerequisite.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\mh\ratio.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\mh\renderer.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\mh\resource\sound.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\mh\resource\texture.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\mh\resource.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\mh\scene\manager.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\mh\scene.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\mh\set.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\mh\stl\iterator.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\mh\string.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\mh\text\encoding.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\mh\timer.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\mh\tuple.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\mh\types.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\mh\type_traits.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\mh\util.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\mh\vector.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\mh\view.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\mh\stl\algorithm.hpp">
+      <Filter>헤더 파일\stl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\mh\stl\allocator.hpp">
+      <Filter>헤더 파일\stl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\mh\stl\array.hpp">
+      <Filter>헤더 파일\stl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\mh\stl\atomic.hpp">
+      <Filter>헤더 파일\stl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\mh\resource\base.hpp">
+      <Filter>헤더 파일\resource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\mh\renderer\base.hpp">
+      <Filter>헤더 파일\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\mh\predef\architecture.h">
+      <Filter>헤더 파일\predef</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\mh\resource\buffer.hpp">
+      <Filter>헤더 파일\resource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\mh\resource\buffer_d3d9.hpp">
+      <Filter>헤더 파일\resource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\mh\scene\camera.hpp">
+      <Filter>헤더 파일\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\mh\math\types.hpp">
+      <Filter>헤더 파일\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\mh\stl\type_traits.hpp">
+      <Filter>헤더 파일\stl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\mh\stl\tuple.hpp">
+      <Filter>헤더 파일\stl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\mh\stl\string.hpp">
+      <Filter>헤더 파일\stl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\mh\stl\list.hpp">
+      <Filter>헤더 파일\stl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\mh\stl\vector.hpp">
+      <Filter>헤더 파일\stl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\mh\utility.hpp">
+      <Filter>헤더 파일\stl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\mh\stl\set.hpp">
+      <Filter>헤더 파일\stl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\mh\stl\functional.hpp">
+      <Filter>헤더 파일\stl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\mh\math\function.hpp">
+      <Filter>헤더 파일\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\mh\stl\memory.hpp">
+      <Filter>헤더 파일\stl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\mh\scene\spatial.hpp">
+      <Filter>헤더 파일\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\mh\scene\node.hpp">
+      <Filter>헤더 파일\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\mh\resource\gpu_program.hpp">
+      <Filter>헤더 파일\resource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\mh\scene\light.hpp">
+      <Filter>헤더 파일\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\mh\hid\xinput.hpp">
+      <Filter>헤더 파일\hid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\mh\predef\language.h">
+      <Filter>헤더 파일\predef</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\mh\hid\device.hpp">
+      <Filter>헤더 파일\hid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\mh\numeric.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\include\mh\atomic_win32.inl">
+      <Filter>헤더 파일</Filter>
+    </None>
+    <None Include="..\..\include\mh\math.inl">
+      <Filter>헤더 파일</Filter>
+    </None>
+    <None Include="..\..\include\mh\scene\manager.inl">
+      <Filter>헤더 파일</Filter>
+    </None>
+    <None Include="..\..\include\mh\stl\iterator.inl">
+      <Filter>헤더 파일</Filter>
+    </None>
+    <None Include="..\..\include\mh\stl\allocator.inl">
+      <Filter>헤더 파일\stl</Filter>
+    </None>
+    <None Include="..\..\include\mh\math\vector.inl">
+      <Filter>헤더 파일\math</Filter>
+    </None>
+    <None Include="..\..\include\mh\math\function.inl">
+      <Filter>헤더 파일\math</Filter>
+    </None>
+    <None Include="..\..\include\mh\stl\list.inl">
+      <Filter>헤더 파일\stl</Filter>
+    </None>
+    <None Include="..\..\include\mh\stl\memory.inl">
+      <Filter>헤더 파일\stl</Filter>
+    </None>
+    <None Include="..\..\include\mh\math\matrix.inl">
+      <Filter>헤더 파일\math</Filter>
+    </None>
+    <None Include="..\..\include\mh\math\rect.inl">
+      <Filter>헤더 파일\math</Filter>
+    </None>
+    <None Include="..\..\include\mh\math\quaternion.inl">
+      <Filter>헤더 파일\math</Filter>
+    </None>
+    <None Include="..\..\include\mh\stl\vector.inl">
+      <Filter>헤더 파일\stl</Filter>
+    </None>
+    <None Include="..\..\include\mh\math\line.inl">
+      <Filter>헤더 파일\math</Filter>
+    </None>
+    <None Include="..\..\include\mh\stl\string.inl">
+      <Filter>헤더 파일\stl</Filter>
+    </None>
+    <None Include="..\..\include\mh\math\plane.inl">
+      <Filter>헤더 파일\math</Filter>
+    </None>
+    <None Include="..\..\include\mh\stl\array.inl">
+      <Filter>헤더 파일\stl</Filter>
+    </None>
+    <None Include="..\..\include\mh\math\color.inl">
+      <Filter>헤더 파일\math</Filter>
+    </None>
+    <None Include="..\..\include\mh\math\point.inl">
+      <Filter>헤더 파일\math</Filter>
+    </None>
+    <None Include="..\..\include\mh\math\sphere.inl">
+      <Filter>헤더 파일\math</Filter>
+    </None>
+    <None Include="..\..\include\mh\stl\algorithm.inl">
+      <Filter>헤더 파일\stl</Filter>
+    </None>
+    <None Include="..\..\include\mh\numeric.inl">
+      <Filter>헤더 파일</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\app.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\audio_base.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\math.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\pattern\pattern_observer.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\plugin.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\hid\hid_device.cpp">
+      <Filter>소스 파일\hid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\hid\hid_gamepad.cpp">
+      <Filter>소스 파일\hid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\hid\hid_manager.cpp">
+      <Filter>소스 파일\hid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\hid\hid_mouse.cpp">
+      <Filter>소스 파일\hid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\hid\hid_xinput.cpp">
+      <Filter>소스 파일\hid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\renderer\renderer.cpp">
+      <Filter>소스 파일\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\resource_base.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\resource_texture.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\scene\scene_manager.cpp">
+      <Filter>소스 파일\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\scene\scene_node.cpp">
+      <Filter>소스 파일\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\scene\scene_spatial.cpp">
+      <Filter>소스 파일\scene</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
